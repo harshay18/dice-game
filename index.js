@@ -3,8 +3,24 @@ var randomNumber1 = Math.random();
 randomNumber1=randomNumber1*6;
 randomNumber1=Math.floor(randomNumber1)+1;
 
-var randomDiceImage = "dice"+randomNumber1+".png";
-document.querySelectorAll("img")[0].setAttribute("src",randomDiceImage)
+if (randomNumber1==1) {
+    document.querySelector(".img1").src="dice1.png";
+}
+else if (randomNumber1==2) {
+    document.querySelector(".img1").src="dice2.png";
+}
+else if (randomNumber1==3) {
+    document.querySelector(".img1").src="dice3.png";
+}
+else if (randomNumber1==4) {
+    document.querySelector(".img1").src="dice4.png";
+}
+else if (randomNumber1==5) {
+    document.querySelector(".img1").src="dice5.png";
+}
+else {
+    document.querySelector(".img1").src="dice6.png";
+}
 
 
 //For class="img2"
