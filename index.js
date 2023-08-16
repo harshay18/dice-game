@@ -13,22 +13,22 @@ randomNumber2=randomNumber2*6;
 randomNumber2=Math.floor(randomNumber2)+1;
 
 if (randomNumber2==1) {
-    document.querySelector(".img2").src="images/dice1.png";
+    document.querySelector(".img2").src="dice1.png";
 }
 else if (randomNumber2==2) {
-    document.querySelector(".img2").src="images/dice2.png";
+    document.querySelector(".img2").src="dice2.png";
 }
 else if (randomNumber2==3) {
-    document.querySelector(".img2").src="images/dice3.png";
+    document.querySelector(".img2").src="dice3.png";
 }
 else if (randomNumber2==4) {
-    document.querySelector(".img2").src="images/dice4.png";
+    document.querySelector(".img2").src="dice4.png";
 }
 else if (randomNumber2==5) {
-    document.querySelector(".img2").src="images/dice5.png";
+    document.querySelector(".img2").src="dice5.png";
 }
 else {
-    document.querySelector(".img2").src="images/dice6.png";
+    document.querySelector(".img2").src="dice6.png";
 }
 
 if (randomNumber1>randomNumber2) {
